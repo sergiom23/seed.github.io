@@ -26,6 +26,8 @@ body{
 	font-family: "Open Sans";
 	font-weight: 300;
 	color: #222;
+  text-align: center;
+  height: 100%;
 }
 
 
@@ -45,40 +47,27 @@ h2,h3,h4,h5,h6 {
 
 
 /*
- * Globals for cover
+ * Globals
  */
 
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: #222;
+  color: #fff;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #2E161A;
+  color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
-  border: 1px solid #2E161A;
+  border: 1px solid #fff;
 }
 
 
-/*
- * Base structure
- */
-
-html,
-body {
-  height: 100%;
-  background-color: #fff;
-}
-body {
-  color: #222;
-  text-align: center;
-}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -120,9 +109,8 @@ body {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #222; /* IE8 proofing */
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -134,8 +122,8 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #2E161A;
-  border-bottom-color: #2E161A;
+  color: #fff;
+  border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -203,4 +191,5 @@ body {
   .cover-container {
     width: 700px;
   }
+}
 }
