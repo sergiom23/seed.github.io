@@ -59,10 +59,10 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #2E161A;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
-  border: 1px solid #222;
+  border: 1px solid #2E161A;
 }
 
 
@@ -76,7 +76,7 @@ body {
   background-color: #fff;
 }
 body {
-  color: #fff;
+  color: #222;
   text-align: center;
 }
 
@@ -120,8 +120,9 @@ body {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #222; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
