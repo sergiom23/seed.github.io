@@ -54,17 +54,17 @@ h2,h3,h4,h5,h6 {
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #2E161A;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #2E161A;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #2E161A;
 }
 
 
@@ -122,8 +122,8 @@ a:hover {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #2E161A;
+  border-bottom-color: #2E161A;
 }
 
 @media (min-width: 768px) {
