@@ -79,6 +79,10 @@ h2,h3,h4,h5,h6 {
   font-family: "Open Sans";
 }
 
+p {
+
+  font-family: "Open Sans";
+}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -122,13 +126,11 @@ h2,h3,h4,h5,h6 {
   font-size: 16px;
   font-weight: bold;
   color: #2E161A; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
@@ -156,7 +158,7 @@ h2,h3,h4,h5,h6 {
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 
@@ -166,7 +168,6 @@ h2,h3,h4,h5,h6 {
 
 .mastfoot {
   color: #222; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
 }
 
 
