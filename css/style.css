@@ -111,7 +111,7 @@ a:hover {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  color: #2E161A; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -155,7 +155,7 @@ a:hover {
  */
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
+  color: #222; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
 
