@@ -272,7 +272,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BrandonTextRegular","Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #808080;
@@ -361,7 +361,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BrandonTextRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
   color: #333333;
@@ -5784,7 +5784,7 @@ button.close {
   color: #d9230f;
 }
 .btn {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BrandonTextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .btn-default,
 .btn-default:hover {
