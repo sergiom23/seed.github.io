@@ -80,8 +80,13 @@ body, html {
   width: 100%;
 }
 
+body {
+  font-family: "Brandon Text Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Brandon Text Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
