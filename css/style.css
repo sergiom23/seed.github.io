@@ -158,8 +158,15 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section-a {
-  background-color: #FFD699;
+  background-color: #88B0D8;
   padding: 50px 0;
+}
+
+.content-section-a  a {
+  color: #3A75B2;
+}
+.content-section-a  a:hover {
+  color: #134274;
 }
 
 .content-section-b {
