@@ -34,7 +34,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
        url('../fonts/brandontext-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/brandontext-bold-webfont.svg#52b8f7bdef7f32b456bdff259aa0aafa') format('svg'); /* Legacy iOS */
        
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
 }
 
