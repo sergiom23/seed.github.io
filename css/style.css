@@ -85,6 +85,16 @@ body {
   font-weight: 400;
 }
 
+strong {
+  font-family: "BrandonTextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+i {
+  font-family: "BrandonTextRegularItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "BrandonTextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
