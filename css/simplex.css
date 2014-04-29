@@ -5,6 +5,9 @@
  * Licensed under MIT
  * Based on Bootstrap
 */
+
+/*Contains some styles added by me :)*/
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: "BrandonTextRegular",sans-serif;
@@ -287,12 +290,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #d9230f;
+  color: #31B58B;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #91170a;
+  color: #107654;
   text-decoration: underline;
 }
 a:focus {
