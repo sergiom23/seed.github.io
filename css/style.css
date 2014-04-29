@@ -27,51 +27,51 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /*@Import fonts*/
 
 @font-face {
-  font-family: 'Brandon Text Bold';
+  font-family: 'BrandonTextBold';
   src: url('/fonts/brandontext-bold-webfont.eot'); /* IE9 Compat Modes */
   src: url('/fonts/brandontext-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/fonts/brandontext-bold-webfont.woff') format('woff'), /* Modern Browsers */
        url('/fonts/brandontext-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('/fonts/brandontext-bold-webfont.svg#52b8f7bdef7f32b456bdff259aa0aafa') format('svg'); /* Legacy iOS */
        
-  font-style:   normal;
-  font-weight:  700;
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Brandon Text Light';
+  font-family: 'BrandonTextLight';
   src: url('/fonts/brandontext-light-webfont.eot'); /* IE9 Compat Modes */
   src: url('/fonts/brandontext-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/fonts/brandontext-light-webfont.woff') format('woff'), /* Modern Browsers */
        url('/fonts/brandontext-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('/fonts/brandontext-light-webfont.svg#b2e83f21a04278900d92d2a5931f7dc3') format('svg'); /* Legacy iOS */
        
-  font-style:   normal;
-  font-weight:  200;
+  font-style: normal;
+  font-weight: 200;
 }
 
 @font-face {
-  font-family: 'Brandon Text Regular';
+  font-family: 'BrandonTextRegular';
   src: url('/fonts/brandontext-regular-webfont.eot'); /* IE9 Compat Modes */
   src: url('/fonts/brandontext-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/fonts/brandontext-regular-webfont.woff') format('woff'), /* Modern Browsers */
        url('/fonts/brandontext-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('/fonts/brandontext-regular-webfont.svg#4582969d6388a5dded4cbb4ff7487e0a') format('svg'); /* Legacy iOS */
        
-  font-style:   normal;
-  font-weight:  400;
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Brandon Text Regular';
+  font-family: 'BrandonTextRegularItalic';
   src: url('/fonts/brandontext-regularitalic-webfont.eot'); /* IE9 Compat Modes */
   src: url('/fonts/brandontext-regularitalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/fonts/brandontext-regularitalic-webfont.woff') format('woff'), /* Modern Browsers */
        url('/fonts/brandontext-regularitalic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('/fonts/brandontext-regularitalic-webfont.svg#209a8c9e59efad64ce8807be31e0570e') format('svg'); /* Legacy iOS */
        
-  font-style:   italic;
-  font-weight:  400;
+  font-style: italic;
+  font-weight: 400;
 }
 
 
@@ -81,12 +81,12 @@ body, html {
 }
 
 body {
-  font-family: "Brandon Text Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BrandonTextRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Brandon Text Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BrandonTextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
