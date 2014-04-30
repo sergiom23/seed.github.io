@@ -191,7 +191,7 @@ a:hover {
 }
 
 .content-section-a {
-  background-color: #107654;
+  background-color: #31B58A;
   color: white;
   padding: 50px 0;
 }
@@ -201,8 +201,8 @@ a:hover {
 }
 
 .content-section-a  a {
-  color: #31B58A;
-  border-bottom: 2px solid #31B58A;
+  color: #107654;
+  border-bottom: 2px solid #107654;
 }
 .content-section-a  a:hover {
   color: #83DABD;
