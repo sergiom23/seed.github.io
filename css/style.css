@@ -250,6 +250,7 @@ footer {
 p.copyright {
   margin: 15px 0 0;
 }
+/* Button Styles*/
 
 .btn-default {
   background-color: #1E070B;
@@ -267,5 +268,30 @@ p.copyright {
   background-color: #2E161A;
   border: 1px solid #1E070B;
   color:white;
+}
+
+/** Social buttons **/
+.btn-twitter{
+  background-color: #55acee;
+  color: white;
+  border: 1px solid #1C649B;
+}
+
+.btn-twitter:hover{
+  background-color: #1C649B;
+  color: white;
+  border: 1px solid #55acee;
+}
+
+.btn-github{
+  background-color: #171515;
+  color: white;
+  border: 1px solid #0F0707;
+}
+
+.btn-github:hover{
+  background-color: #0F0707;
+  color: white;
+  border: 1px solid #171515;
 }
 
