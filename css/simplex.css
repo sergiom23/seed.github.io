@@ -291,12 +291,23 @@ textarea {
 }
 a {
   color: #31B58B;
+  cursor:pointer;
+  border-bottom: 2px solid #DBDBDB;
   text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
 }
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #107654;
-  text-decoration: underline;
+  border-bottom-color:#107654;
+  background-color: transparent;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
 }
 a:focus {
   outline: thin dotted;

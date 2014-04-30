@@ -74,6 +74,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-weight: 400;
 }
 
+/* Body styles*/
 
 body, html {
   height: 100%;
@@ -99,6 +100,28 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: "BrandonTextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+
+a {
+  color: #31B58B;
+  cursor:pointer;
+  border-bottom: 2px solid #DBDBDB;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+a:hover {
+  color: #107654;
+  border-bottom-color:#107654;
+  background-color: transparent;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+
 
 .lead {
   font-size: 18px;
