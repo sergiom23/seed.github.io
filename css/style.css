@@ -197,14 +197,14 @@ a:hover {
 
 .banner {
   padding: 100px 0;
-  color: #f8f8f8;
+  color: #ffffff;
   background: url(../img/banner-bg.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment:fixed;
 }
 
 .banner h2 {
   margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 3em;
 }
 
