@@ -106,7 +106,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                       <strong><a href="#">See Features <i class="fa fa-arrow-right"></i></a></strong>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/cogs.svg" alt="Cogs" data-toggle="tooltip" data-placement="top" title="¡Seed it's Awesome!">
+                    <img class="img-responsive" src="img/cogs.svg" alt="Cogs" rel="tooltip" data-placement="top" data-title="¡Seed it's Awesome!">
                 </div>
 
             </div>
@@ -215,6 +215,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        $("[rel='tooltip']").tooltip();
+    });
+</script>
 
 </body>
 </html>
