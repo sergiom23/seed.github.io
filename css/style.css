@@ -106,20 +106,20 @@ a {
   cursor:pointer;
   border-bottom: 2px solid #DBDBDB;
   text-decoration: none;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
 }
 a:hover {
   color: #107654;
   border-bottom-color:#107654;
   background-color: transparent;
   text-decoration: none;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
 }
 
 
@@ -202,7 +202,7 @@ a:hover {
 
 .content-section-a  a {
   color: #FFC774;
-  border-bottom: 2px solid #3A75B2;
+  border-bottom: 2px solid #FFC774;
 }
 .content-section-a  a:hover {
   color: #FFD699;
