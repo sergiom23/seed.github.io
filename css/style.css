@@ -271,23 +271,31 @@ p.copyright {
 }
 
 /** Social buttons **/
-.btn-twitter{
+.btn-social {
+  color:white;
+}
+
+.btn-social a {
+  border-bottom:none;
+}
+
+.btn-social a {
+  border-bottom-color:none;
+}
+
+.btn-social.twitter{
   background-color: #55acee;
-  color: white;
 }
 
-.btn-twitter:hover{
+.btn-social.twitter:hover{
   background-color: #1C649B;
-  color: white;
 }
 
-.btn-github{
+.btn-social.github{
   background-color: #171515;
-  color: white;
 }
 
-.btn-github:hover{
+.btn-social.github:hover{
   background-color: #ffffff;
-  color: #454545;
 }
 
