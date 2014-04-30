@@ -82,7 +82,7 @@ body, html {
 }
 
 body {
-  font-family: "BrandonTextRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "BrandonTextLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -160,6 +160,7 @@ a:hover {
 
 .intro-message > h3 {
   color:white;
+  font-weight: 400;
 }
 
 @media (max-width: 767px) {
@@ -298,5 +299,6 @@ p.copyright {
 .btn-default:hover {
   background-color: #2E161A;
   border: 1px solid #1E070B;
+  color:white;
 }
 
