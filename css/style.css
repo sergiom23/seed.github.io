@@ -281,14 +281,3 @@ p.copyright {
   margin: 15px 0 0;
 }
 
-#superboostraped {
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-}
-
-#customizablecogs {
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-}
