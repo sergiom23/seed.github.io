@@ -5795,14 +5795,21 @@ button.close {
 .btn {
   font-family: "BrandonTextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.btn-default,
+.btn-default {
+  background-image: -webkit-linear-gradient(#1E070B, #1E070B 6%, #1E070B);
+  background-image: linear-gradient(#1E070B, #1E070B 6%, #1E070B);
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f5151', endColorstr='#ff3f4141', GradientType=0);
+  filter: none;
+  border: 1px solid #1E070B;
+}
 .btn-default:hover {
   background-image: -webkit-linear-gradient(#2E161A, #2E161A 6%, #2E161A);
   background-image: linear-gradient(#2E161A, #2E161A 6%, #2E161A);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f5151', endColorstr='#ff3f4141', GradientType=0);
   filter: none;
-  border: 1px solid #2e2f2f;
+  border: 1px solid #2E161A;
 }
 .btn-primary,
 .btn-primary:hover {
