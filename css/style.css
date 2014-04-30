@@ -278,6 +278,7 @@ p.copyright {
 
 .btn-twitter:hover{
   background-color: #1C649B;
+  color: white;
 }
 
 .btn-github{
@@ -287,5 +288,6 @@ p.copyright {
 
 .btn-github:hover{
   background-color: #0F0707;
+  color: white;
 }
 
