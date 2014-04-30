@@ -283,3 +283,21 @@ p.copyright {
   margin: 15px 0 0;
 }
 
+.btn-default {
+  background-color: #1E070B;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f5151', endColorstr='#ff3f4141', GradientType=0);
+  filter: none;
+  border: 1px solid #2E161A;
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
+
+}
+.btn-default:hover {
+  background-color: #2E161A;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f5151', endColorstr='#ff3f4141', GradientType=0);
+  filter: none;
+  border: 1px solid #1E070B;
+}
+
