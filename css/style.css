@@ -250,6 +250,14 @@ footer {
 p.copyright {
   margin: 15px 0 0;
 }
+
+/* Love */
+
+span.love {
+  color:#FC5151;
+}
+
+
 /* Button Styles*/
 
 .btn-default {
