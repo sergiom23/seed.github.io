@@ -191,7 +191,7 @@ a:hover {
 }
 
 .content-section-a {
-  background-color: #134274;
+  background-color: #107654;
   color: white;
   padding: 50px 0;
 }
@@ -201,12 +201,12 @@ a:hover {
 }
 
 .content-section-a  a {
-  color: #FFC774;
-  border-bottom: 2px solid #88B0D8;
+  color: #31B58A;
+  border-bottom: 2px solid #31B58A;
 }
 .content-section-a  a:hover {
-  color: #FFD699;
-  border-bottom-color:#FFD699;
+  color: #83DABD;
+  border-bottom-color:#83DABD;
 }
 
 .content-section-b {
