@@ -5796,22 +5796,24 @@ button.close {
   font-family: "BrandonTextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .btn-default {
-  background-image: -webkit-linear-gradient(#1E070B, #1E070B 6%, #1E070B);
-  background-image: linear-gradient(#1E070B, #1E070B 6%, #1E070B);
+  background-image: -webkit-linear-gradient(#1E070B, #231517 6%, #2E161A);
+  background-image: linear-gradient(#1E070B, #231517 6%, #2E161A);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f5151', endColorstr='#ff3f4141', GradientType=0);
   filter: none;
   border: 1px solid #1E070B;
-  -webkit-transition: background-image .8s; -moz-transition: background-image .8s; -o-transition: background-image .8s; -ms-transition: background-image .8s;
+  background-size: auto 200%;
+  background-position: 0 100%;
+  transition: background-position 0.5s;
 }
 .btn-default:hover {
-  background-image: -webkit-linear-gradient(#2E161A, #2E161A 6%, #2E161A);
-  background-image: linear-gradient(#2E161A, #2E161A 6%, #2E161A);
+  background-image: -webkit-linear-gradient(#2E161A, #231517 6%, #1E070B);
+  background-image: linear-gradient(#2E161A, #231517 6%, #1E070B);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f5151', endColorstr='#ff3f4141', GradientType=0);
   filter: none;
+  background-position: 0 0;
   border: 1px solid #2E161A;
-  -webkit-transition: background-image .8s; -moz-transition: background-image .8s; -o-transition: background-image .8s; -ms-transition: background-image .8s;
 }
 .btn-primary,
 .btn-primary:hover {
