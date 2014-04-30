@@ -168,16 +168,20 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section-a {
-  background-color: #88B0D8;
+  background-color: #134274;
   color: white;
   padding: 50px 0;
 }
 
+.content-section-a h2 {
+  color: white;
+}
+
 .content-section-a  a {
-  color: #3A75B2;
+  color: #88B0D8;
 }
 .content-section-a  a:hover {
-  color: #134274;
+  color: #6BA1D8;
 }
 
 .content-section-b {
