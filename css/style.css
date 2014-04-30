@@ -202,9 +202,11 @@ a:hover {
 
 .content-section-a  a {
   color: #FFC774;
+  border-bottom: 2px solid #FFC774;
 }
 .content-section-a  a:hover {
   color: #FFD699;
+  border-bottom-color:#FFD699;
 }
 
 .content-section-b {
