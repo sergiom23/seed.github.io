@@ -205,13 +205,13 @@ a:hover {
   border-bottom: 2px solid #107654;
 }
 .content-section-a  a:hover {
-  color: #83DABD;
-  border-bottom-color:#83DABD;
+  color: #e7e7e7;
+  border-bottom-color:#e7e7e7;
 }
 
 .content-section-b {
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #83DABD;
+  border-bottom: 1px solid #83DABD;
   padding: 50px 0;
 }
 
