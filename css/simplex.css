@@ -5795,7 +5795,7 @@ button.close {
 .btn {
   font-family: "BrandonTextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.btn-default,
+/*.btn-default,
 .btn-default:hover {
   background-image: -webkit-linear-gradient(#4f5151, #474949 6%, #3f4141);
   background-image: linear-gradient(#4f5151, #474949 6%, #3f4141);
@@ -5849,6 +5849,7 @@ button.close {
   filter: none;
   border: 1px solid #ac6819;
 }
+*/
 body {
   font-weight: 200;
 }
