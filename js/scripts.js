@@ -18,17 +18,17 @@ $(document).ready(function () {
 
             index = (index + 1) % img_array.length;
 
-        $('.intro-header').css('background', function () {
+        $('.intro-header').css('background').fadeOut('slow',function() {
             $('.intro-header').animate({
                 backgroundColor: 'transparent'
             }, 1000, function () {
                 setTimeout(function () {
                     $('.intro-header').animate({
-                        'background-color': 'url(/img/bg0.jpg)'
+                        'background-color': 'url(/img/bg0.jpg)'.fadeIn('slow')
                     }, 1000);
                 }, 3000);
             });
-            return 'url(/img/bg' + img_array[index] + '.jpg)';
+            return 'url(/img/bg' + img_array[index] + '.jpg)'.fadeIn('slow');
         });
         setTimeout(changeBg, interval);
     })();
