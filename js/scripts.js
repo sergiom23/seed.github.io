@@ -2,7 +2,7 @@ $(document).ready(function () {
     var img_array = [0, 1, 2, 3, 4, 5],
         newIndex = 0,
         index = 0,
-        interval = 15000;
+        interval = 10000;
     (function changeBg() {
 
         //  --------------------------
@@ -18,12 +18,12 @@ $(document).ready(function () {
 
             index = (index + 1) % img_array.length;
 
-        $('.bg').css('background', function () {
-            $('.bg').animate({
+        $('.intro-header').css('background', function () {
+            $('.intro-header').animate({
                 backgroundColor: 'transparent'
             }, 1000, function () {
                 setTimeout(function () {
-                    $('.bg').animate({
+                    $('.intro-header').animate({
                         backgroundColor: 'rgb(49,181,139)'
                     }, 1000);
                 }, 3000);

@@ -101,9 +101,6 @@ a:hover {
   height:100%;
   position:relative;
   z-index:-1;
-}
-
-.intro-header.bg {
   background: url(../img/bg0.jpg) no-repeat center center;
   background-size: cover;
   text-align: center;
