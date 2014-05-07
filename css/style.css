@@ -90,7 +90,7 @@ a:hover {
 
 .lead {
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .intro-header {
@@ -109,12 +109,14 @@ a:hover {
   -ms-filter: blur(1px);
   filter: blur(5px);
   font-weight: 300;
+
 }
 
 .intro-message {
   position: relative;
   padding-top: 20%;
   padding-bottom: 20%;
+  z-index: 1;
 }
 
 .intro-message > h1 {
@@ -163,7 +165,7 @@ a:hover {
 
 .network-name {
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .content-section-a {
