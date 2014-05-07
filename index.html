@@ -266,20 +266,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     <!-- Vendor -->
     <script>
-        (document).ready(function(){
-    ('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-
-        var target = this.hash,
-        target = (target);
-
-        ('html, body').stop().animate({
-            'scrollTop': target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
-         });
-       });
-    });
+      $('.scroll').click(function() {
+    $('body').animate({
+        scrollTop: eval($('#' + $(this).attr('target')).offset().top - 70)
+    }, 1000);
+});
     </script>
 
 </body>
