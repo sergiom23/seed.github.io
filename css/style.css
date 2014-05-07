@@ -166,9 +166,10 @@ a:hover {
 .scroll-link {
   display:inline-block;
   cursor:pointer;
+  border-bottom: 10px;
   text-align:center;
   color: white;
-  position:relative
+  position:relative;
 }
 
 .scroll-link a {
