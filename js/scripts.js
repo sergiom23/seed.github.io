@@ -18,7 +18,7 @@ $(document).ready(function () {
 
             index = (index + 1) % img_array.length;
 
-        $('body').css('backgroundImage', function () {
+        $('.intro-header').css('backgroundImage', function () {
             $('.intro-header').animate({
                 backgroundColor: 'transparent'
             }, 1000, function () {
