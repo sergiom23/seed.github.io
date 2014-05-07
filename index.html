@@ -286,5 +286,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }(jQuery));
     </script>
 
+<!-- .intro-header Background Slides -->
+
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+<script style="text/javascript">
+    (function () {
+        var curImgId = 0;
+        var numberOfImages = 5; // Change this to the number of background images
+        window.setInterval(function() {
+            $('.intro-header').css('background','url("/img/bg'+ curImgId +'.jpg")');// set the image path here
+            curImgId = (curImgId + 1) % numberOfImages;
+        }, 15 * 1000);
+    })();
+
+</script>
 </body>
 </html>
