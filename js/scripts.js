@@ -24,7 +24,7 @@ $(document).ready(function () {
             }, 1000, function () {
                 setTimeout(function () {
                     $('.intro-header').animate({
-                        backgroundColor: 'rgb(49,181,139)'
+                        'background-color': 'rgb(49,181,139)'
                     }, 1000);
                 }, 3000);
             });
