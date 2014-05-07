@@ -168,6 +168,13 @@ a:hover {
   font-weight: 300;
 }
 
+.scroll-link {
+  display:inline-block;
+  border:2px solid rgba(255,255,255,0.65);
+  cursor:pointer;text-align:center;
+  color: white;
+  position:relative}
+
 .content-section-a {
   background-color: #31B58A;
   color: white;
