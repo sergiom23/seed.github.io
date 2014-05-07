@@ -18,12 +18,12 @@ $(document).ready(function () {
 
             index = (index + 1) % img_array.length;
 
-        $('.intro-header').css('background', function () {
-            $('.intro-header').animate({
+        $('.bg').css('background', function () {
+            $('.bg').animate({
                 backgroundColor: 'transparent'
             }, 1000, function () {
                 setTimeout(function () {
-                    $('.intro-header').animate({
+                    $('.bg').animate({
                         backgroundColor: 'rgb(49,181,139)'
                     }, 1000);
                 }, 3000);
