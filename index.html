@@ -264,12 +264,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }(jQuery));
     </script>
 
-    <!-- Vendor -->
+<!-- Vendor function scroll with jQuery-->
     <script>
-      $('.scroll').click(function() {
-    $('body').animate({
-        scrollTop: eval($('#' + $(this).attr('target')).offset().top - 70)
-    }, 1000);
+
+    $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+        $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
 });
     </script>
 
