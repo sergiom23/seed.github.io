@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var img_array = [1, 2, 3, 4, 5],
+    var img_array = [0, 1, 2, 3, 4, 5],
         newIndex = 0,
         index = 0,
         interval = 15000;
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
             index = (index + 1) % img_array.length;
 
-        $('.intro-header').css('backgroundImage', function () {
+        $('.intro-header').css('background', function () {
             $('.intro-header').animate({
                 backgroundColor: 'transparent'
             }, 1000, function () {
