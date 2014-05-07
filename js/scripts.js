@@ -1,11 +1,3 @@
-/************
- Scripts
-*************/
-
-
-/*============================
-Slides Background
-============================*/
 (document).ready(function () {
     var img_array = [0, 1, 2, 3, 4, 5],
         newIndex = 0,
