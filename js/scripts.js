@@ -21,12 +21,12 @@ $(document).ready(function () {
         $('.intro-header').css('backgroundImage', function () {
             $('.intro-header').animate({
                 backgroundColor: 'transparent'
-            }, 1000, function () {
+            }, 10000, function () {
                 setTimeout(function () {
                     $('.intro-header').animate({
                         backgroundColor: 'rgb(255,255,255)'
-                    }, 1000);
-                }, 3000);
+                    }, 10000);
+                }, 30000);
             });
             return 'url(/img/bg' + img_array[index] + '.jpg)';
         });
