@@ -295,10 +295,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             $('.intro-header').css('background','url("/img/bg'+ curImgId +'.jpg")');// set the image path here
             curImgId = (curImgId + 1) % numberOfImages;
         }, 15 * 1000);
-        $('.intro-header').fadeTo('slow', 0.3, function()
-{        $('.intro-header').css('background-image', 'url("/img/bg'+ curImgId +'.jpg")');
-        }).delay(1000).fadeTo('slow', 1)
+
 {
+            $('.intro-header').fadeTo('slow', 0.3, function()
+{           $('.intro-header').css('background-image', 'url("/img/bg'+ curImgId +'.jpg")');
+            }).delay(1000).fadeTo('slow', 1)
     })();
 
 
