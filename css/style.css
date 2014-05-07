@@ -10,7 +10,7 @@ Author URI: http://sergiom23.com/
 ####
 Palette
 Color Pallete inspired by: http://www.colourlovers.com/palette/3290258/Seaside_Sunrise
-Secondary color: #3A75B2 ;
+Secondary color Blue: #3A75B2 ;
 
 The MIT License (MIT)
 
@@ -93,7 +93,7 @@ a:hover {
   font-weight: 300;
 }
 
-.intro-header {
+.intro-header:before {
   padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 0px;
   color: #ffffff!important;
@@ -109,7 +109,6 @@ a:hover {
   -ms-filter: blur(1px);
   filter: blur(5px);
   font-weight: 300;
-  z-index: 1000;
 
 }
 
@@ -117,7 +116,7 @@ a:hover {
   position: relative;
   padding-top: 20%;
   padding-bottom: 20%;
-  z-index: 1;
+  z-index: 0;
 }
 
 .intro-message > h1 {
