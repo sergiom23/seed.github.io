@@ -228,6 +228,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
 
     <!-- Tooltip function-->
     <script type="text/javascript">
@@ -255,9 +256,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             'scrollTop': $target.offset().top
         }, 900, 'swing', function () {
             window.location.hash = target;
-        });
+         });
+       });
     });
-});
     </script>
 
 
@@ -279,30 +280,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             } else {
                 $('.navbar').fadeOut();
             }
-        });
-    });
-
-    });
-  }(jQuery));
+          });
+         });
+       });
+     }(jQuery));
     </script>
 
-<!-- .intro-header Background Slides -->
-<script style="text/javascript">
-    (function () {
-        var curImgId = 0;
-        var numberOfImages = 5; // Change this to the number of background images
-        window.setInterval(function() {
-            $('.intro-header').css('background','url("/img/bg'+ curImgId +'.jpg")');// set the image path here
-            curImgId = (curImgId + 1) % numberOfImages;
-        }, 15 * 1000);
+    <!-- .intro-header Background Slides 
+    <script style="text/javascript">
+        (function () {
+            var curImgId = 0;
+            var numberOfImages = 5; // Change this to the number of background images
+            window.setInterval(function() {
+                $('.intro-header').css('background','url("/img/bg'+ curImgId +'.jpg")');// set the image path here
+                curImgId = (curImgId + 1) % numberOfImages;
+            }, 15 * 1000);
 
-{
-            $('.intro-header').fadeTo('slow', 0.3, function()
-{           $('.intro-header').css('background-image', 'url("/img/bg'+ curImgId +'.jpg")');
-            }).delay(1000).fadeTo('slow', 1)
-    })();
+    {
+        })();
+    </script>-->
 
 
-</script>
 </body>
 </html>
