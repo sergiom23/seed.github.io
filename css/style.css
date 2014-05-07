@@ -165,10 +165,19 @@ a:hover {
 
 .scroll-link {
   display:inline-block;
-  cursor:pointer;text-align:center;
+  cursor:pointer;
+  text-align:center;
   color: white;
-  position:relative}
+  position:relative
+}
 
+.scroll-link a {
+  border-bottom:none;
+}
+
+.scroll-link a:hover {
+  border-bottom-color:none;
+}
 .content-section-a {
   background-color: #31B58A;
   color: white;
