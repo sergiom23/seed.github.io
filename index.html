@@ -228,8 +228,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/scripts.js"></script>
-
     <!-- Tooltip function-->
     <script type="text/javascript">
     $(function () {
@@ -241,63 +239,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <script>
     new WOW().init();
     </script>
-
-    <!-- Vendor function scroll with jQuery-->
-    <script>
-
-    $(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-
-        var target = this.hash,
-        $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function () {
-            window.location.hash = target;
-         });
-       });
-    });
-    </script>
-
-
-    <!-- Navbar Affix -->
-    <script>
-    (function ($) {
-    $(document).ready(function(){
-
-    // hide .navbar first
-    $(".navbar").hide();
-
-    // fade in .navbar
-    $(function () {
-        $(window).scroll(function () {
-
-                 // set distance user needs to scroll before we start fadeIn
-            if ($(this).scrollTop() > 600) {
-                $('.navbar').fadeIn();
-            } else {
-                $('.navbar').fadeOut();
-            }
-          });
-         });
-       });
-     }(jQuery));
-    </script>
-
-    <!-- .intro-header Background Slides 
-    <script style="text/javascript">
-        (function () {
-            var curImgId = 0;
-            var numberOfImages = 5; // Change this to the number of background images
-            window.setInterval(function() {
-                $('.intro-header').css('background','url("/img/bg'+ curImgId +'.jpg")');// set the image path here
-                curImgId = (curImgId + 1) % numberOfImages;
-            }, 15 * 1000);
-
-    {
-        })();
-</script>-->
+    
 </body>
 </html>
