@@ -105,11 +105,6 @@ a:hover {
   background-size: cover;
   text-align: center;
   background-attachment: fixed;
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  filter: blur(1px);
 }
 
 .intro-message {
