@@ -221,6 +221,13 @@ a:hover {
   border-bottom-color:#FFBA19;
 }
 
+.content-section-d {
+  border-top: 1px solid #FFDC8A;
+  border-bottom: 1px solid #FFDC8A;
+  padding: 50px 0;
+  background-color: white;
+}
+
 
 .section-heading {
   margin-bottom: 30px;
