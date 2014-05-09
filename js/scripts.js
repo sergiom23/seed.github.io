@@ -24,7 +24,7 @@
             }, 1000, function () {
                 setTimeout(function () {
                     ('.intro-header').animate({
-                        'background-color': 'url(/img/bg0.jpg)'
+                        backgroundColor: 'rgb(49, 181, 138)'
                     }, 1000);
                 }, 3000);
             });
