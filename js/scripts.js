@@ -18,7 +18,7 @@
 
             index = (index + 1) % img_array.length;
 
-        ('.intro-header').css('background') {
+        ('body').css('background') {
             ('.intro-header').animate({
                 backgroundColor: 'transparent'
             }, 1000, function () {
