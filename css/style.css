@@ -204,9 +204,7 @@ a:hover {
   border-top: 1px solid #83DABD;
   border-bottom: 1px solid #FFDC8A;
   padding: 50px 0;
-  position: relative;
   background-color: white;
-  background-attachment: fixed;
 }
 
 .content-section-c {
@@ -227,9 +225,7 @@ a:hover {
   border-top: 1px solid #FFDC8A;
   border-bottom: 1px solid #FFDC8A;
   padding: 50px 0;
-  position: relative;
   background-color: white;
-  background-attachment: fixed;
 }
 
 
