@@ -202,7 +202,7 @@ a:hover {
 
 .content-section-b {
   border-top: 1px solid #83DABD;
-  border-bottom: 1px solid #83DABD;
+  border-bottom: 1px solid #FFDC8A;
   padding: 50px 0;
   background-color: white;
 }
@@ -211,6 +211,16 @@ a:hover {
   background-color: #FFDC8A;
   padding: 50px 0;
 }
+
+.content-section-c  a {
+  color: #FFCD58;
+  border-bottom: 2px solid #FFBA19;
+}
+.content-section-c  a:hover {
+  color: #FFBA19;
+  border-bottom-color:#FFCD58;
+}
+
 
 .section-heading {
   margin-bottom: 30px;
