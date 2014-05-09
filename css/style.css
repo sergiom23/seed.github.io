@@ -216,6 +216,11 @@ a:hover {
   float: left;
 }
 
+.img-responsive {
+  transition-delay: 2s;
+}
+
+
 .banner {
   padding: 100px 0;
   color: #ffffff;
