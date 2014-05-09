@@ -221,6 +221,10 @@ a:hover {
   border-bottom-color:#FFBA19;
 }
 
+.content-section-c.section-heading-spacer {
+  border-top: 3px solid #FFDC8A;
+}
+
 .content-section-d {
   border-top: 1px solid #FFDC8A;
   border-bottom: 1px solid #FFDC8A;
