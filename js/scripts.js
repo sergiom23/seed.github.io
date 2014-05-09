@@ -1,8 +1,8 @@
-(document).ready(function () {
-    var img_array = [0, 1, 2, 3, 4, 5],
+$(document).ready(function () {
+    var img_array = [1, 2, 3, 4, 5],
         newIndex = 0,
         index = 0,
-        interval = 10000;
+        interval = 15000;
     (function changeBg() {
 
         //  --------------------------
@@ -18,13 +18,13 @@
 
             index = (index + 1) % img_array.length;
 
-        ('body').css('background') {
-            ('.intro-header').animate({
+        $('.intro-header').css('backgroundImage', function () {
+            $('.intro-header').animate({
                 backgroundColor: 'transparent'
             }, 1000, function () {
                 setTimeout(function () {
-                    ('.intro-header').animate({
-                        backgroundColor: 'rgb(49, 181, 138)'
+                    $('.intro-header').animate({
+                        backgroundColor: 'rgb(255,255,255)'
                     }, 1000);
                 }, 3000);
             });
@@ -33,5 +33,3 @@
         setTimeout(changeBg, interval);
     })();
 });
-
-
