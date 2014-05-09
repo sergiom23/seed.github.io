@@ -205,6 +205,7 @@ a:hover {
   border-bottom: 1px solid #FFDC8A;
   padding: 50px 0;
   background-color: white;
+  background-attachment: fixed;
 }
 
 .content-section-c {
@@ -226,6 +227,7 @@ a:hover {
   border-bottom: 1px solid #FFDC8A;
   padding: 50px 0;
   background-color: white;
+  background-attachment: fixed;
 }
 
 
