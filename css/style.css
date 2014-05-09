@@ -213,12 +213,12 @@ a:hover {
 }
 
 .content-section-c  a {
-  color: #FFCD58;
-  border-bottom: 2px solid #FFBA19;
+  color: #FFBA19;
+  border-bottom: 2px solid #FFB300;
 }
 .content-section-c  a:hover {
-  color: #FFBA19;
-  border-bottom-color:#FFCD58;
+  color: #FFB300;
+  border-bottom-color:#FFBA19;
 }
 
 
