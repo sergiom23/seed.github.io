@@ -300,6 +300,9 @@ span.love {
 }
 
 .btn-default a:hover{
+  border-bottom-color:none!important;
+}
+.btn-default a{
   border-bottom-color:none;
 }
 
