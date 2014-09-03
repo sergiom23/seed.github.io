@@ -120,7 +120,7 @@ a:hover {
   font-size: 5em;
   color:white;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 
 }
 
@@ -223,6 +223,8 @@ a:hover {
 
 .content-section-c .section-heading-spacer-c {
   border-top: 3px solid #FFB300;
+  width: 200px;
+  float: left;
 }
 
 .content-section-d {
@@ -232,6 +234,19 @@ a:hover {
   background-color: white;
 }
 
+.content-section-e {
+  background-color: #FFDC8A;
+  padding: 50px 0;
+}
+
+.content-section-e  a {
+  color: #FFBA19;
+  border-bottom: 2px solid #FFB300;
+}
+.content-section-e  a:hover {
+  color: #FFB300;
+  border-bottom-color:#FFBA19;
+}
 
 .section-heading {
   margin-bottom: 30px;
